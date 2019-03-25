@@ -1,0 +1,19 @@
+.drawer-toggle-button{
+    background: transparent;
+    width: 50px;
+    height: 30px;
+    padding: 0;
+    outline: none;
+    padding: 2px 0;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .toggle-line{
+        width: 30px;
+        height: 2px;
+        background-color: white;
+    }
+}

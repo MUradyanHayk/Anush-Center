@@ -1,0 +1,38 @@
+ .container {
+     // border: 1px solid red;
+     padding: 15px;
+     margin: 0 auto;
+     margin-bottom: 30px;
+     .card {
+         width: 340px;
+         border-radius: 15px;
+         background-color: rgb(218, 218, 218);
+         background-color: white;
+         cursor: pointer;
+         transition: 0.9s all ease;
+         box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+         &:hover {
+             transform: scale(1.09)
+         }
+         .img-container {
+             width: 130px;
+             margin: 15px auto;
+             padding: 10px;
+             img {
+                 width: 100%;
+                 margin: 0 auto;
+             }
+         }
+         .info {
+             width: 100%;
+             border-bottom-left-radius: 15px;
+             border-bottom-right-radius: 15px;
+             background-color: firebrick;
+             padding: 10px 0;
+             text-align: center;
+             color: white;
+             font-size: 16px;
+             font-weight: bold;
+         }
+     }
+ }

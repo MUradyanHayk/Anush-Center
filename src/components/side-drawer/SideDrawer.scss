@@ -1,0 +1,37 @@
+.side-drawer {
+    max-width: 400px;
+    width: 70%;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+
+.side-drawer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translateX(-100%);
+    transition: 0.3s ease-out;
+    ul {
+        list-style: none;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        li {
+            a {
+                color: black;
+                text-decoration: none;
+                margin: 100px 0;
+            }
+        }
+    }
+}
+
+.open {
+    transform: translateX(0);
+}
