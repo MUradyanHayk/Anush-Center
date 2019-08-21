@@ -18,7 +18,7 @@ import piano from "../../img/svgs/piano.svg";
 
 export default class CardList extends Component {
   getImg = imgName => {
-    const pattern = /img\/svgs\/drum.svg$/;
+    // const pattern = /img\/svgs\/drum.svg$/;
     switch (true) {
       case /img\/svgs\/united-kingdom.svg$/.test(imgName):
         return english;

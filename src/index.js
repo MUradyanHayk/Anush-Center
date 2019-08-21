@@ -8,8 +8,8 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 serviceWorker.unregister();
 
-search.addEventListener(`submit` , e=>{
-    const search = document.getElementsByClassName("pm-toolbar__search__input")[0];
-    e.preventDefault();
-    window.location.href=`https://www.bing.com/search?q=${search.value}`;
-});
+// const search = document.getElementsByClassName("pm-toolbar__search__input")[0];
+// search.addEventListener(`submit`, e => {
+//     e.preventDefault();
+//     window.location.href = `https://www.bing.com/search?q=${search.value}`;
+// });

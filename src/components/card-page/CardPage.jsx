@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import "./CardPage.scss";
-import CardList from "../card-list/CardList";
+// import CardList from "../card-list/CardList";
 
 const CardPage = ({card}) => {
   
